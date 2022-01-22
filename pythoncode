@@ -1,0 +1,11 @@
+import pync
+import time
+
+def reminder(): #creat function reminder
+    pync.notify(title = "take a brek reminder", message = "It is time to take a break from work",timeout = 1)
+
+while True:
+        
+    reminder()
+        
+    time.sleep(1200)#remind me every 20 minutes
